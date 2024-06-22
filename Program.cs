@@ -14,10 +14,9 @@ namespace homeWorkNineSequence
             int step = 7;
             int numberMax = 103;
 
-            for (int i = 0; numberStart <= numberMax; i++)
+            for (int i = numberStart; i <= numberMax; i+=step)
             {
-                Console.WriteLine(numberStart);
-                numberStart += step;
+                Console.WriteLine(i);
             }
         }
     }
