@@ -11,13 +11,13 @@ namespace homeWorkNineSequence
         static void Main(string[] args)
         {
             int numberStart = 5;
-            int risingNumber = 7;
+            int step = 7;
             int numberMax = 103;
 
-            while (numberStart <= numberMax)
+            for (int i = 0; numberStart <= numberMax; i++)
             {
                 Console.WriteLine(numberStart);
-                numberStart += risingNumber;
+                numberStart += step;
             }
         }
     }
